@@ -1,0 +1,49 @@
+body
+{
+    /*  background: url(../img/touming.png) repeat left top; background: transparent; background: #F4F9FC; 	*/
+    background: transparent;
+    padding: 0px;
+    margin: 0px;
+    color: #111111;
+    width: 100%;
+    height: 100%; 
+    color: 12px;
+    height:auto !important;
+}
+.top{
+  height: 200px;
+  text-align: center;
+  background-color:#D2691E ;
+ margin:0px 0px 10px 0px;
+ }
+
+ .main {
+  position: relative;
+ }
+ .left{
+  height:200px;
+  text-align: left;
+  position: absolute;
+  z-index: 2;
+  width: 200px;
+  left: 0;
+  top: 0;
+  background-color: yellow;
+ }
+ .content{
+  text-align: center;
+  margin-left: 210px;
+  background-color: #F4F9FC;
+  overflow: auto 
+ }
+ .bottom {
+ 	clear:both;
+   position:fixed;
+    bottom:0;
+    left:0;
+    height: 40px;
+    width: 100%;
+  background-color:#DCDCDC ;
+
+ }
+ 
